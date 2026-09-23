@@ -5,7 +5,7 @@ Prebuilt, frozen image for the `ESP32-S3-DevKitC-1-N16R8`
 
 | File | Size | SHA-256 |
 |---|---|---|
-| `sws_programmer_esp32s3_n16r8_v1.1.bin` | 963488 B | `3bf587d90ea74de097f38dd48f981671294572a846f76cfe7acf0d00a6f3f230` |
+| `sws_programmer_esp32s3_n16r8_v1.2.bin` | 970960 B | `AAD264974D2BCD3B87408DAA5A84F55728F867B8310CA4B55293F0804F78628F` |
 
 - **target:** `ESP32-S3-DevKitC-1-N16R8` (PlatformIO env `esp32s3n16r8`)
 - **pins (all functions):** SWS=42, RST=41, UART TX/RX=17/18, RS485=33/34/35,
@@ -18,5 +18,5 @@ Prebuilt, frozen image for the `ESP32-S3-DevKitC-1-N16R8`
 ## Verify
 
 ```powershell
-Get-FileHash firmware\sws_programmer_esp32s3_n16r8_v1.1.bin -Algorithm SHA256
+Get-FileHash firmware\sws_programmer_esp32s3_n16r8_v1.2.bin -Algorithm SHA256
 ```
